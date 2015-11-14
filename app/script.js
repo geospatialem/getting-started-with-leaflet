@@ -1,7 +1,7 @@
 // Initialize the map on the "map" div with a given center and zoom
 var map = L.map('map', {
     center: [44.95, -93.09], // Centered on St. Paul (Lat/Long tool: http://itouchmap.com/latlong.html)
-    zoom: 9 // Zoom level
+    zoom: 11 // Zoom level
 });
 
 /* Basemap: Thunderforest Spinal Map */
