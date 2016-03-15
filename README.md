@@ -13,9 +13,11 @@ _The following templates show a basic map with a basemap (no data/services are s
 2. CSS
 3. JavaScript
 
-### File Structure
-* index.html
-* leaflet.css
-* leaflet.js
-* style.css
-* script.js  
+### File Structure  
+* :open_file_folder: app  
+  * style.css  
+  * script.js  
+* :open_file_folder: leaflet  
+  * leaflet.css  
+  * leaflet.js  
+* index.html   
