@@ -24,3 +24,6 @@ _Interactive map with a basemap, and no zoom/pan functionality (incl. mobile, no
   * leaflet.css  
   * leaflet.js  
 * index.html   
+
+## Trade Tricks
+A [trade tricks](blob/gh-pages/TRADETRICKS.md) readme document was created to showcase some code snippets that have helped.
