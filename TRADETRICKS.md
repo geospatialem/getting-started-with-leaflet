@@ -1,6 +1,6 @@
 # Trade Tricks  
 
-1. [Symbolize based on attribute](#Symbolize-based-on-attribute)  
+1. [Symbolize based on attribute](#symbolize-based-on-attribute)  
 
 ## Symbolize based on attribute  
 
