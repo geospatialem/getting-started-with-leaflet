@@ -1,0 +1,64 @@
+# Trade Tricks  
+
+1. [Symbolize based on attribute](#Symbolize-based-on-attribute)  
+
+## Symbolize based on attribute  
+
+### Color  
+Color is a great way to showcase your data on a map, particularly with choropleth maps, but also with point data.  
+
+The following example will work for both point, and polygon data. Note the style function is _only a portion_ of the JavaScript needed. The rest of the code was omitted so it could apply to a wide range of datasets.  
+
+**JavaScript**:   
+```javascript  
+//Set the color
+function getColor(nameMeWhatever) {
+	return nameMeWhatever > 100.0 ? '#000' : // I usually set the highest value here, to verify records are coming in as-expected
+		  nameMeWhatever  > 75.0  ? '#006D2C' :
+			nameMeWhatever  > 50.0  ? '#31A354' :
+			nameMeWhatever  > 25.0  ? '#74C476' :
+			nameMeWhatever  >  0.0 ? '#BAE4B3' :
+							 	 '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
+}
+
+//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or
+style: function (feature) {
+    return {
+      color: "#D3D3D3", //Gray outline
+      weight: 1.5, // Weight of the outline
+      fillColor: getColor(feature.properties.YOURFIELDNAMEHERE), //Set the fill to a field in your dataset
+      fillOpacity: 0.75, //Fill opacity
+      opacity: 1, //Line opacity
+      dashArray: '3', //Line dash
+      clickable: true //Clickable
+    };
+}
+```
+
+### Radius  
+Symbol size is a great way to showcase your data on a map, particularly with point data.
+
+The following example will work for both point, and polygon data. Note the style function is _only a portion_ of the JavaScript needed. The rest of the code was omitted so it could apply to a wide range of datasets.  
+
+**JavaScript**:   
+```javascript  
+//Set the color
+function getRadius(nameMeWhatever) {
+	return nameMeWhatever > 100.0 ? 100 : // I usually set the highest value here, to verify records are coming in as-expected
+		  nameMeWhatever  > 75.0  ? 16 :
+			nameMeWhatever  > 50.0  ? 8 :
+			nameMeWhatever  > 25.0  ? 6 :
+			nameMeWhatever  >  0.0  ? 4 :
+							 	 4; // I usually set this below the lowest value, to verify records are coming in as-expected
+}
+
+//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or
+style: function (feature) {
+    return {
+      color: "#000", //Colored black
+      radius: getRadius(feature.properties.YOURFIELDNAMEHERE), //Set the radius to a field in your dataset
+      opacity: 1, //Point opacity
+      clickable: true //Clickable
+    };
+}
+```
