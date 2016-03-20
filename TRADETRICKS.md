@@ -21,7 +21,7 @@ function getColor(nameMeWhatever) {
 							 	 '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
 }
 
-//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or
+//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
 style: function (feature) {
     return {
       color: "#D3D3D3", //Gray outline
@@ -52,7 +52,7 @@ function getRadius(nameMeWhatever) {
 							 	 4; // I usually set this below the lowest value, to verify records are coming in as-expected
 }
 
-//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or
+//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
 style: function (feature) {
     return {
       color: "#000", //Colored black
