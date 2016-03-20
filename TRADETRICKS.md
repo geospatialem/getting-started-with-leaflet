@@ -12,7 +12,7 @@ The following example will work for both point, and polygon data. Note the style
 **JavaScript**:   
 ```javascript  
 //Set the color
-function getColor(nameMeWhatever) {
+function setColor(nameMeWhatever) {
 	return nameMeWhatever > 100.0 ? '#000' : // I usually set the highest value here, to verify records are coming in as-expected
 		  nameMeWhatever  > 75.0  ? '#006D2C' :
 			nameMeWhatever  > 50.0  ? '#31A354' :
@@ -26,7 +26,7 @@ style: function (feature) {
     return {
       color: "#D3D3D3", //Gray outline
       weight: 1.5, // Weight of the outline
-      fillColor: getColor(feature.properties.YOURFIELDNAMEHERE), //Set the fill to a field in your dataset
+      fillColor: setColor(feature.properties.YOURFIELDNAMEHERE), //Set the fill to a field in your dataset
       fillOpacity: 0.75, //Fill opacity
       opacity: 1, //Line opacity
       dashArray: '3', //Line dash
@@ -43,7 +43,7 @@ The following example will work for both point, and polygon data. Note the style
 **JavaScript**:   
 ```javascript  
 //Set the color
-function getRadius(nameMeWhatever) {
+function setRadiusSize(nameMeWhatever) {
 	return nameMeWhatever > 100.0 ? 100 : // I usually set the highest value here, to verify records are coming in as-expected
 		  nameMeWhatever  > 75.0  ? 16 :
 			nameMeWhatever  > 50.0  ? 8 :
@@ -56,7 +56,7 @@ function getRadius(nameMeWhatever) {
 style: function (feature) {
     return {
       color: "#000", //Colored black
-      radius: getRadius(feature.properties.YOURFIELDNAMEHERE), //Set the radius to a field in your dataset
+      radius: setRadiusSize(feature.properties.YOURFIELDNAMEHERE), //Set the radius to a field in your dataset
       opacity: 1, //Point opacity
       clickable: true //Clickable
     };
