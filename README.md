@@ -7,23 +7,25 @@ _Interactive map with a basemap (no data):_
 * [Esri Leaflet](http://geospatialem.github.io/getting-started-with-leaflet/esri-leaflet/index.html)
 
 _Interactive map with a basemap, and no zoom/pan functionality (incl. mobile, no data):_
-* [Leaflet Embedded](http://geospatialem.github.io/getting-started-with-leaflet/leaflet-embedded/index.html)
+* [Leaflet (embedded)](http://geospatialem.github.io/getting-started-with-leaflet/leaflet-embedded/index.html)
 
 
-## Template Inclusions
-### The Basics
+### Template Inclusions
+#### The Basics
 1. HTML
 2. CSS
 3. JavaScript
 
-### File Structure  
-* :open_file_folder: app  
+#### File Structure  
+* :open_file_folder: _app_  
   * style.css  
   * script.js  
-* :open_file_folder: leaflet  
+* :open_file_folder: _leaflet_  
   * leaflet.css  
   * leaflet.js  
-* index.html   
+* :open_file_folder: _esri leaflet (where applicable)_   
+  * esri-leaflet.js  
+* _index.html_   
 
 ## Trade Tricks
-A [trade tricks](http://github.com/geospatialem/getting-started-with-leaflet/blob/gh-pages/TRADETRICKS.md) readme document was created to showcase some code snippets that have helped.
+A "[Trade Tricks](http://github.com/geospatialem/getting-started-with-leaflet/blob/gh-pages/TRADETRICKS.md)" document was created to showcase proven and  `<code snippets>`.
