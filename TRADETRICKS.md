@@ -13,7 +13,7 @@ The following example will work for both point, and polygon data. Note the style
 ```javascript  
 //Set the color
 function setColor(nameMeWhatever) {
-	return nameMeWhatever > 100.0  ? '#000' : // I usually set the highest value here, to verify records are coming in as-expected
+	return nameMeWhatever  > 100.0 ? '#000' : // I usually set the highest value here, to verify records are coming in as-expected
 	       nameMeWhatever  > 75.0  ? '#006D2C' :
 	       nameMeWhatever  > 50.0  ? '#31A354' :
 	       nameMeWhatever  > 25.0  ? '#74C476' :
@@ -44,7 +44,7 @@ The following example will work for both point, and polygon data. Note the style
 ```javascript  
 //Set the color
 function setRadiusSize(nameMeWhatever) {
-	return nameMeWhatever > 100.0  ? 100 : // I usually set the highest value here, to verify records are coming in as-expected
+	return nameMeWhatever  > 100.0 ? 100 : // I usually set the highest value here, to verify records are coming in as-expected
 	       nameMeWhatever  > 75.0  ?  16 :
 	       nameMeWhatever  > 50.0  ?  8 :
 	       nameMeWhatever  > 25.0  ?  6 :
