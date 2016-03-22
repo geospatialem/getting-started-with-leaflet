@@ -73,16 +73,13 @@ Note the style function is _only a portion_ of the JavaScript needed. The rest o
 ```javascript
     style: function(feature) {
         return {
-        	color: "green"
+        	color: "#000"
         };
     },
     pointToLayer: function(feature, latlng) {
         return new L.CircleMarker(latlng, {
-        	radius: 10,
-        	fillOpacity: 0.85
+        	radius: 8,
+        	fillOpacity: 1
         });
-    },
-    onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.NAME);
     }
 ```
