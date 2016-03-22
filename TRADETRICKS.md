@@ -19,7 +19,7 @@ function setColor(nameMeWhatever) {
 	       nameMeWhatever  > 50.0  ? '#31A354' :
 	       nameMeWhatever  > 25.0  ? '#74C476' :
 	       nameMeWhatever  >  0.0  ? '#BAE4B3' :
-				                           '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
+				                     '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
 }
 
 //Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
@@ -50,7 +50,7 @@ function setRadiusSize(nameMeWhatever) {
 	       nameMeWhatever  > 50.0  ?  8 :
 	       nameMeWhatever  > 25.0  ?  6 :
 	       nameMeWhatever  >  0.0  ?  4 :
-					                          4; // I usually set this below the lowest value, to verify records are coming in as-expected
+					                  4; // I usually set this below the lowest value, to verify records are coming in as-expected
 }
 
 //Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
