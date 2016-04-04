@@ -3,7 +3,7 @@
 
 ## Exercise 1: Template Shells
 _Interactive map with a basemap (no data):_  
-* [Leaflet](http://geospatialem.github.io/getting-started-with-leaflet/temmplates/leaflet/index.html)  
+* [Leaflet](http://geospatialem.github.io/getting-started-with-leaflet/templates/leaflet/index.html)  
 * [Esri Leaflet](http://geospatialem.github.io/getting-started-with-leaflet/templates/esri-leaflet/index.html)  
 
 _Interactive map with a basemap, and no zoom/pan functionality (incl. mobile, no data):_
