@@ -27,5 +27,5 @@ _Interactive map with a basemap, and no zoom/pan functionality (incl. mobile, no
   * esri-leaflet.js  
 * _index.html_   
 
-## Trade Tricks
+## Extra Credit: Trade Tricks
 A "[Trade Tricks](http://github.com/geospatialem/getting-started-with-leaflet/blob/gh-pages/TRADETRICKS.md)" document was created to showcase proven and  `<code snippets>`.
