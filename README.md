@@ -27,7 +27,8 @@ _Interactive map with a basemap, and no zoom/pan functionality (incl. mobile, no
 
 
 ## Exercise 2: Adding Data to the Map
-* [ArcGIS Service](http://geospatialem.github.io/getting-started-with-leaflet/adding-data/service/index.html)   
+I. [ArcGIS Service](http://geospatialem.github.io/getting-started-with-leaflet/adding-data/service/index.html):  
+  * Dependencies: Leaflet, Esri Leaflet
 
 ## Extra Credit: Trade Tricks
 A "[Trade Tricks](http://github.com/geospatialem/getting-started-with-leaflet/blob/gh-pages/TRADETRICKS.md)" document was created to showcase proven and  `<code snippets>`.
