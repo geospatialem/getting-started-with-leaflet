@@ -24,4 +24,4 @@
 * [Map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise1_Templates/1-3_Embedded-Leaflet/Final/index.html)  
 
 Return to [Course Content](README.md)  
-Continue to [Exercise 2](Exercise_2.md)  
+Continue to [Exercise 2](Exercise2_Adding-Data.md)  
