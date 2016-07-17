@@ -27,7 +27,8 @@ The course content separates out the code into the following files:
   * **script.js**  
 * :open_file_folder: _leaflet_ [Leaflet JavaScript Library]  
   * leaflet.css  
-  * leaflet.js  
+  * leaflet.js
+  * leaflet.ajax.js _(where applicable)_   
 * :open_file_folder: _esri leaflet (where applicable)_ [Esri Leaflet JavaScript Library]  
   * esri-leaflet.js  
 * **index.html**
