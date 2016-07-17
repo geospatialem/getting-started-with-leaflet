@@ -4,3 +4,5 @@
 
 ### ArcGIS Service
 [Final map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise2_Adding-Data/service/index.html)
+
+[Continue to Exercise 3](Exercise_3.md)

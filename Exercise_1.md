@@ -12,3 +12,5 @@
 
 ### Leaflet embedded
 [Final map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise1_Templates/leaflet-embedded/index.html)  
+
+[Continue to Exercise 2](Exercise_2.md)
