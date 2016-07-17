@@ -20,15 +20,17 @@ The course content separates out the code into the following files:
 * JavaScript *(.js)*
 
 ### File Structure  
+**Bolded** file names indicate the files we will be editing. The other folders and files are used for reference, and are the libraries we are using to produce our web maps.
+
 * :open_file_folder: _app_  
-  * style.css  
-  * script.js  
-* :open_file_folder: _leaflet_: Leaflet JavaScript Library  
+  * **style.css**  
+  * **script.js**  
+* :open_file_folder: _leaflet_ [Leaflet JavaScript Library]  
   * leaflet.css  
   * leaflet.js  
-* :open_file_folder: _esri leaflet (where applicable)_: Esri-Leaflet JavaScript Library  
+* :open_file_folder: _esri leaflet (where applicable)_ [Esri Leaflet JavaScript Library]  
   * esri-leaflet.js  
-* index.html
+* **index.html**
 
 ## Course Materials  
 * [Exercise 1: Template Shells](Exercise_1.md): *content coming soon*  
