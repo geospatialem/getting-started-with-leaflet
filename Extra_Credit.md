@@ -83,3 +83,6 @@ Note the style function is _only a portion_ of the JavaScript needed. The rest o
         });
     }
 ```
+
+Return to [Exercise 3](Exercise_3.md)
+Continue to [Course Content](README.md)
