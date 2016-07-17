@@ -12,7 +12,7 @@
 
 #### Final products
 * [Code](../../tree/gh-pages/Exercise2_Adding-Data/2-2_GeoJSON/Final)  
-* [Map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise2_Adding-Data/Final/2-2_GeoJSON/Final/index.html)  
+* [Map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise2_Adding-Data/2-2_GeoJSON/Final/index.html)  
 
 Return to [Exercise 1](Exercise_1.md)  
 Continue to [Exercise 3](Exercise_3.md)  
