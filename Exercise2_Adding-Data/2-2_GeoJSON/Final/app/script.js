@@ -35,7 +35,7 @@ var EsriDarkGrayCanvasRef = L.tileLayer('https://server.arcgisonline.com/ArcGIS/
 // No styling
 //var mnCountiesJSON = new L.GeoJSON.AJAX("data/mnCounties.geojson").addTo(map);
 
-//Style
+// Styling
 var mnCountiesJSON = new L.GeoJSON.AJAX("data/mnCounties.geojson", {
 style: function (feature) {
     return {
