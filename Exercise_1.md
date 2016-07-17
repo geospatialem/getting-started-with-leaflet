@@ -3,6 +3,7 @@
 ## Interactive map with a basemap (no data):   
 
 ###  Leaflet  
+[Final Code](../../getting-started-with-leaflet/tree/gh-pages/Exercise1_Templates)
 [Final map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise1_Templates/leaflet/index.html)  
 
 ### Esri Leaflet  
