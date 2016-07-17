@@ -1,34 +1,33 @@
-# Getting Started with Leaflet
-[Leaflet](http://leafletjs.com/reference.html) is the leading open-source JavaScript library for mobile-friendly interactive maps. It is designed with simplicity, performance, and usability in mind. It works efficiently across all major desktop and mobile platforms, can be extended with lots of plugins, has a beautiful, easy to use and well-documented API and a simple, readable source code.
+# How To Make a Web Map Like That!
+This workshop was created for the [Minnesota GIS/LIS Consortium](http://mngislis.org)'s 26th Annual Conference in Duluth, Minnesota in October 2016.
 
-## The Basics
-1. HTML
-2. CSS
-3. JavaScript
+_While all content is freely available, no person should redistribute the information for profit._ However, the course content can be shared for non-profit use including broadcasting via webinars, training opportunities, MeetUp events, and other mediums. **If using this course for such a medium, please give credit to [Kitty Hurley](https://www.twitter.com/geospatialem).**
+
+## Background
+While this workshops focuses on open source platforms, students can apply the skills learned in the classroom to work with other mapping libraries!
+
+This course teaches students about the [Leaflet](http://leafletjs.com/reference.html) and [Esri Leaflet](http://esri.github.io/esri-leaflet) libraries; two of the leading open-source JavaScript libraries for mobile-friendly interactive maps. Leaflet is designed with simplicity, performance, and usability in mind. It works efficiently across all major desktop and mobile platforms, can be extended with lots of plugins, is well-documented, and has a readable source code.
+
+### Code Organization
+The course content separates out the code into the following files:
+
+* HTML *(.html)*
+* CSS *(.css)*
+* JavaScript *(.js)*
 
 ### File Structure  
 * :open_file_folder: _app_  
   * style.css  
   * script.js  
-* :open_file_folder: _leaflet_  
+* :open_file_folder: _leaflet_  (leaflet library)
   * leaflet.css  
   * leaflet.js  
-* :open_file_folder: _esri leaflet (where applicable)_   
+* :open_file_folder: _esri leaflet (where applicable)_ (esri-leaflet library)  
   * esri-leaflet.js  
-* _index.html_   
+* index.html
 
-## Exercise 1: Template Shells
-_Interactive map with a basemap (no data):_  
-* [Leaflet](http://geospatialem.github.io/getting-started-with-leaflet/templates/leaflet/index.html)  
-* [Esri Leaflet](http://geospatialem.github.io/getting-started-with-leaflet/templates/esri-leaflet/index.html)  
-
-_Interactive map with a basemap, and no zoom/pan functionality (incl. mobile, no data):_
-* [Leaflet (embedded)](http://geospatialem.github.io/getting-started-with-leaflet/templates/leaflet-embedded/index.html)  
-
-
-## Exercise 2: Adding Data to the Map
-_Data from a Service (Dependencies: Leaflet, Esri Leaflet):_
-* [ArcGIS Service](http://geospatialem.github.io/getting-started-with-leaflet/adding-data/service/index.html)
-
-## Extra Credit: Trade Tricks
-A "[Trade Tricks](http://github.com/geospatialem/getting-started-with-leaflet/blob/gh-pages/TRADETRICKS.md)" document was created to showcase proven and  `<code snippets>`.
+## Course Materials  
+* [Exercise 1: Template Shells](/blob/gh-pages/Exercise_1/Exercise_1.md): *content coming soon*  
+* [Exercise 2: Adding Data to the Map](/blob/gh-pages/Exercise_2/Exercise_2.md): *content coming soon*  
+* [Exercise 3: Pop-ups](/blob/gh-pages/Exercise_3/Exercise_3.md): *content coming soon*  
+* [Extra Credit: Trade Tricks](/blob/gh-pages/Extra_Credit/Extra_Credit.md): *content coming soon*  

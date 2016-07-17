@@ -1,0 +1,85 @@
+# Extra Credit: Trade Tricks  
+
+1. [Symbolize Based on Attribute](#symbolize-based-on-attribute)  
+2. [Point to Layer](#point-to-layer)  
+
+## Symbolize Based on Attribute  
+
+### Color  
+Color is a great way to showcase your data on a map, particularly with choropleth maps, but also with point data.  
+
+The following example will work for both point, and polygon data. Note the style function is _only a portion_ of the JavaScript needed. The rest of the code was omitted so it could apply to a wide range of datasets.  
+
+**JavaScript**:   
+```javascript  
+//Set the color
+function setColor(nameMeWhatever) {
+	return nameMeWhatever  > 100.0 ? '#000' : // I usually set the highest value here, to verify records are coming in as-expected
+	       nameMeWhatever  > 75.0  ? '#006D2C' :
+	       nameMeWhatever  > 50.0  ? '#31A354' :
+	       nameMeWhatever  > 25.0  ? '#74C476' :
+	       nameMeWhatever  >  0.0  ? '#BAE4B3' :
+				                     '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
+}
+
+//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
+style: function (feature) {
+    return {
+      color: "#D3D3D3", //Gray outline
+      weight: 1.5, // Weight of the outline
+      fillColor: setColor(feature.properties.YOURFIELDNAMEHERE), //Set the fill to a field in your dataset
+      fillOpacity: 0.75, //Fill opacity
+      opacity: 1, //Line opacity
+      dashArray: '3', //Line dash
+      clickable: true //Clickable
+    };
+}
+```
+
+### Radius  
+Symbol size is a great way to showcase your data on a map, particularly with point data.
+
+The following example will work for both point, and polygon data. Note the style function is _only a portion_ of the JavaScript needed. The rest of the code was omitted so it could apply to a wide range of datasets.  
+
+**JavaScript**:   
+```javascript  
+//Set the color
+function setRadiusSize(nameMeWhatever) {
+	return nameMeWhatever  > 100.0 ? 100 : // I usually set the highest value here, to verify records are coming in as-expected
+	       nameMeWhatever  > 75.0  ?  16 :
+	       nameMeWhatever  > 50.0  ?  8 :
+	       nameMeWhatever  > 25.0  ?  6 :
+	       nameMeWhatever  >  0.0  ?  4 :
+					                  4; // I usually set this below the lowest value, to verify records are coming in as-expected
+}
+
+//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
+style: function (feature) {
+    return {
+      color: "#000", //Colored black
+      radius: setRadiusSize(feature.properties.YOURFIELDNAMEHERE), //Set the radius to a field in your dataset
+      opacity: 1, //Point opacity
+      clickable: true //Clickable
+    };
+}
+```  
+
+## Point to Layer
+By default, simple markers are drawn for GeoJSON points. However, using the `pointToLayer` option we can create a `circleMarker`. For more info, check out my [blog post](https://geospatialresponse.wordpress.com/2015/07/26/leaflet-geojson-pointtolayer).
+
+Note the style function is _only a portion_ of the JavaScript needed. The rest of the code was omitted so it could apply to a wide range of datasets.  
+
+**JavaScript**:  
+```javascript
+    style: function(feature) {
+        return {
+        	color: "#000"
+        };
+    },
+    pointToLayer: function(feature, latlng) {
+        return new L.CircleMarker(latlng, {
+        	radius: 8,
+        	fillOpacity: 1
+        });
+    }
+```
