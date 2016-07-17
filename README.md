@@ -3,7 +3,7 @@ This workshop was created for the [Minnesota GIS/LIS Consortium](http://mngislis
 
 _While all content is freely available, no person should redistribute the information for profit._ However, the course content can be shared for non-profit use including broadcasting via webinars, training opportunities, MeetUp events, and other mediums.
 
-**If using this course for such a medium, please give credit to [Kitty Hurley](https://www.twitter.com/geospatialem).**
+If using this course for such a medium, please give credit to [Kitty Hurley](https://www.twitter.com/geospatialem).
 
 ## Background
 While this workshops focuses on open source platforms, students can apply the skills learned in the classroom to work with other mapping libraries!
@@ -23,10 +23,10 @@ The course content separates out the code into the following files:
 * :open_file_folder: _app_  
   * style.css  
   * script.js  
-* :open_file_folder: _leaflet_  (leaflet library)
+* :open_file_folder: _leaflet_: Leaflet JavaScript Library  
   * leaflet.css  
   * leaflet.js  
-* :open_file_folder: _esri leaflet (where applicable)_ (esri-leaflet library)  
+* :open_file_folder: _esri leaflet (where applicable)_: Esri-Leaflet JavaScript Library  
   * esri-leaflet.js  
 * index.html
 
