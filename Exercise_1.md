@@ -12,7 +12,7 @@
 ### Esri Leaflet  
 
 #### Final products  
-* [Code](../../tree/gh-pages/Exercise1_Templates/Basemap_Esri-Leaflet)  
+* [Code](../../tree/gh-pages/Exercise1_Templates/Final/Basemap_Esri-Leaflet)  
 * [Map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise1_Templates/Final/Basemap_Esri-Leaflet/index.html)  
 
 ## Interactive map with a basemap, and no zoom/pan functionality (incl. mobile, no data):  
