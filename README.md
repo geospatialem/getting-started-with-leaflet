@@ -31,7 +31,7 @@ The course content separates out the code into the following files:
 * index.html
 
 ## Course Materials  
-* [Exercise 1: Template Shells](/Exercise_1/Exercise_1.md): *content coming soon*  
-* [Exercise 2: Adding Data to the Map](/Exercise_2/Exercise_2.md): *content coming soon*  
-* [Exercise 3: Pop-ups](/Exercise_3/Exercise_3.md): *content coming soon*  
-* [Extra Credit: Trade Tricks](/Extra_Credit/Extra_Credit.md): *content coming soon*  
+* [Exercise 1: Template Shells](Exercise_1.md): *content coming soon*  
+* [Exercise 2: Adding Data to the Map](Exercise_2.md): *content coming soon*  
+* [Exercise 3: Pop-ups](Exercise_3.md): *content coming soon*  
+* [Extra Credit: Trade Tricks](Extra_Credit.md): *content coming soon*  
