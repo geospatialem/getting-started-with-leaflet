@@ -3,4 +3,4 @@
 ## Data from a Service (Dependencies: Leaflet, Esri Leaflet):
 
 ### ArcGIS Service
-[Final map](http://geospatialem.github.io/getting-started-with-leaflet/adding-data/service/index.html)
+[Final map](http://geospatialem.github.io/getting-started-with-leaflet/Exercise2_Adding-Data/service/index.html)
