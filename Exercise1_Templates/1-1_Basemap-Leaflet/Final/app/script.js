@@ -4,9 +4,16 @@ var map = L.map('map', {
     zoom: 11 // Zoom level
 });
 
-/* Basemap: Thunderforest Spinal Map */
+/* Basemap: OSM Mapnik */
 /* Other Leaflet.js Basemaps: http://leaflet-extras.github.io/leaflet-providers/preview */
+var EsriDarkGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+	maxZoom: 16
+}).addTo(map);
+
+/* Basemap #2: Esri Dark Gray Reference */
 /* To add the basemap to the map, use the .addTo(map) call */
-var Thunderforest_SpinalMap = L.tileLayer('https://{s}.tile.thunderforest.com/spinal-map/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+var EsriDarkGrayCanvasRef = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+	maxZoom: 16
 }).addTo(map);

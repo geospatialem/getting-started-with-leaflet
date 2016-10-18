@@ -4,9 +4,6 @@ var map = L.map('map', {
     zoom: 11 // Zoom level
 });
 
-/* Basemap: Thunderforest Spinal Map */
-/* Other Leaflet.js Basemaps: http://leaflet-extras.github.io/leaflet-providers/preview */
-/* To add the basemap to the map, use the .addTo(map) call */
-var Thunderforest_SpinalMap = L.tileLayer('https://{s}.tile.thunderforest.com/spinal-map/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
+/* Basemap */
+//TODO: 1. Find a basemap you'd like to use using http://leaflet-extras.github.io/leaflet-providers/preview
+//TODO: 2. To add the basemap to the map, use the .addTo(map) call. */
