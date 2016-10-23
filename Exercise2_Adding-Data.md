@@ -11,7 +11,7 @@
 ### Exercise 2.2 Add a GeoJSON   
 
 #### Final products
-* [Code](../../tree/gh-pages/Solutions/Exercise2_Adding-Data/2-2_GeoJSON/Final)  
+* [Code](../../tree/gh-pages/Solutions/Exercise2_Adding-Data/2-2_GeoJSON)  
 * [Map](http://geospatialem.github.io/getting-started-with-leaflet/Solutions/Exercise2_Adding-Data/2-2_GeoJSON/index.html)  
 
 Return to [Exercise 1](Exercise1_Templates.md)  
