@@ -6,4 +6,4 @@
 
 
 Return to [Exercise 2](Exercise2_Adding-Data.md)  
-Continue to [Extra Credit](ExtraCredit_Trade-Tricks.md)  
+Continue to [Extra Credit](Exercise4_ExtraCredit.md)  
