@@ -1,7 +1,7 @@
 # How To Make a Web Map Like That!
-This workshop was created for the [Minnesota GIS/LIS Consortium](http://mngislis.org)'s 26th Annual Conference in Duluth, Minnesota in October 2016.
+This workshop was created for the [Minnesota GIS/LIS Consortium](http://mngislis.org)'s 26th Annual Conference in Duluth, Minnesota on October 26, 2016.
 
-_While all content is freely available, no person should redistribute the information for profit._ However, the course content can be shared for non-profit use including broadcasting via webinars, training opportunities, MeetUp events, and other mediums.
+_While all content is freely available, no person should redistribute the information for profit._ However, the course content can be shared for non-profit use including broadcasting via webinars, training opportunities, Maptime events, Meet-up events, and other mediums.
 
 If using this course for such a medium, please give credit to [Kitty Hurley](https://www.twitter.com/geospatialem).
 
