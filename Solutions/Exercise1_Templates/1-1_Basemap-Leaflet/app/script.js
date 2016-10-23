@@ -1,7 +1,7 @@
 // Initialize the map on the "map" div with a given center and zoom
 var map = L.map('map', {
-    center: [44.95, -93.09], // Centered on St. Paul (Lat/Long tool: http://itouchmap.com/latlong.html)
-    zoom: 11 // Zoom level
+    center: [44.95, -93.09],
+    zoom: 11
 });
 
 /* Basemap: OSM Mapnik */
@@ -17,3 +17,11 @@ var EsriDarkGrayCanvasRef = L.tileLayer('https://server.arcgisonline.com/ArcGIS/
 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
 	maxZoom: 16
 }).addTo(map);
+
+
+//An Event listener to help us identify the zoom level for our map
+/*map.on('zoomend', function() {
+    var mapZoomLevel = map.getZoom();
+    //alert("You are at zoom level: " + mapZoomLevel);
+    console.log("Zoom level: " + mapZoomLevel);
+});*/
