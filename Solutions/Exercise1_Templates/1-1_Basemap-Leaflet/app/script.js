@@ -1,7 +1,7 @@
 // Initialize the map on the "map" div with a given center and zoom
 var map = L.map('map', {
-    center: [44.95, -93.09],
-    zoom: 11
+    center: [46.37, -93.88],
+    zoom: 6
 });
 
 /* Basemap: OSM Mapnik */
