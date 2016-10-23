@@ -5,6 +5,10 @@ _While all content is freely available, no person should redistribute the inform
 
 If using this course for such a medium, please give credit to [Kitty Hurley](https://www.twitter.com/geospatialem).
 
+## Course Files
+* [Slides](http://bit.ly/web-map-like-that)    
+* [Project Files](http://bit.ly/web-map-like-that-files)    
+
 ## Background
 While this workshops focuses on open source platforms, students can apply the skills learned in the classroom to work with other mapping libraries!
 
