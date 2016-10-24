@@ -44,13 +44,13 @@ The following example will work for both point, and polygon data. Note the style
 **JavaScript**:   
 ```javascript  
 //Set the color
-function setRadiusSize(nameMeWhatever) {
-	return nameMeWhatever  > 100.0 ? 100 : // I usually set the highest value here, to verify records are coming in as-expected
-	       nameMeWhatever  > 75.0  ?  16 :
-	       nameMeWhatever  > 50.0  ?  8 :
-	       nameMeWhatever  > 25.0  ?  6 :
-	       nameMeWhatever  >  0.0  ?  4 :
-					                  4; // I usually set this below the lowest value, to verify records are coming in as-expected
+function setRadiusSize(yourVariableName) {
+	return yourVariableName  > 100.0 ? 100 : // I usually set the highest value here, to verify records are coming in as-expected
+	       yourVariableName  > 75.0  ?  16 :
+	       yourVariableName  > 50.0  ?   8 :
+	       yourVariableName  > 25.0  ?   6 :
+	       yourVariableName  >  0.0  ?   4 :
+					                  					 4; // I usually set this below the lowest value, to verify records are coming in as-expected
 }
 
 //Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
