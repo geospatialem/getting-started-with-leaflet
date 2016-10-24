@@ -1,4 +1,10 @@
-# Exercise 3: Pop-ups  
+# Exercise 3: Popups  
+Add a dynamic popup to the data from an ArcGIS RESTful Service. Dependencies include: Leaflet and Esri Leaflet.   
+
+This exercise includes:  
+* JavaScript Loops  
+* RESTful Services  
+* `onEachFeature` Function  
 
 ## Final products  
 * [Code](../../tree/gh-pages/Solutions/Exercise3_Popups)  
