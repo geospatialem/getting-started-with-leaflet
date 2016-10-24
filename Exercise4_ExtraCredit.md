@@ -13,13 +13,13 @@ The following example will work for both point, and polygon data. Note the style
 **JavaScript**:   
 ```javascript  
 //Set the color
-function setColor(nameMeWhatever) {
-	return nameMeWhatever  > 100.0 ? '#000' : // I usually set the highest value here, to verify records are coming in as-expected
-	       nameMeWhatever  > 75.0  ? '#006D2C' :
-	       nameMeWhatever  > 50.0  ? '#31A354' :
-	       nameMeWhatever  > 25.0  ? '#74C476' :
-	       nameMeWhatever  >  0.0  ? '#BAE4B3' :
-				                     '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
+function setColor(yourVariableName) {
+	return yourVariableName  > 100.0 ? '#000' : // I usually set the highest value here, to verify records are coming in as-expected
+	       yourVariableName  > 75.0  ? '#006D2C' :
+	       yourVariableName  > 50.0  ? '#31A354' :
+	       yourVariableName  > 25.0  ? '#74C476' :
+	       yourVariableName  >  0.0  ? '#BAE4B3' :
+				                             '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
 }
 
 //Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
