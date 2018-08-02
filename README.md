@@ -1,13 +1,13 @@
-# How To Make a Web Map Like That!
-This workshop was created for the [Minnesota GIS/LIS Consortium](http://mngislis.org)'s 26th Annual Conference in Duluth, Minnesota on October 26, 2016.
+# Leaflet: Make a Web Map in a Snap
+This workshop was created for the [Minnesota GIS/LIS Consortium](http://mngislis.org)'s 26th Annual Conference in Duluth, Minnesota on October 26, 2016 and modified for the [2018 Minnesota GIS/LIS Consortium Conference](https://www.mngislis.org/page/Conference_2018) in Duluth, Minnesota on October 3, 2018.
 
 _While all content is freely available, no person should redistribute the information for profit._ However, the course content can be shared for non-profit use including broadcasting via webinars, training opportunities, Maptime events, Meet-up events, and other mediums.
 
-If using this course for such a medium, please give credit to [Kitty Hurley](https://www.twitter.com/geospatialem).
+If using this course for such a medium, please give credit to [Jessica Schuler](https://github.com/jjschuler) and [Kitty Hurley](http://geospatialem.github.io).
 
 ## Course Files
-* [Slides](http://bit.ly/gislis-web-map-like-that)    
-* [Project Files](http://bit.ly/web-map-like-that-files)    
+* [Slides](http://bit.ly/webmap-snap)    
+* [Project Files](http://bit.ly/webmap-snap-files)    
 
 ## Background
 While this workshops focuses on open source platforms, students can apply the skills learned in the classroom to work with other mapping libraries!
