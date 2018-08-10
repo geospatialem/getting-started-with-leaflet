@@ -22,7 +22,7 @@ function setColor(yourVariableName) {
 				                             '#FFF'; // I usually set this below the lowest value, to verify records are coming in as-expected
 }
 
-//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJson.
+//Note: this is only the style portion of the data. The data itself is not defined as it could be a service, or GeoJSON.
 style: function (feature) {
     return {
       color: "#D3D3D3", //Gray outline
@@ -83,6 +83,10 @@ Note the style function is _only a portion_ of the JavaScript needed. The rest o
         });
     }
 ```  
+
+## Final products  
+* [Code](../../tree/gh-pages/Solutions/ExtraCredit_Styling)  
+* [Map](http://geospatialem.github.io/getting-started-with-leaflet/Solutions/ExtraCredit_Styling/index.html)  
 
 Return to [Exercise 3](Exercise3_Popups.md)  
 Continue to [Course Content](README.md)  

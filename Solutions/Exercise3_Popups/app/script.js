@@ -1,24 +1,9 @@
 // Initialize the map on the "map" div with a given center and zoom
-var map = L.map('map', {
-    center: [46.37, -93.88],
-    zoom: 6
-});
+var map = L.map("map").setView([46.37, -93.88], 6);
 
-/*******************
-  Basemap Layers
-*******************/
-
-/* Basemap #1: Esri Dark Gray */
-var EsriDarkGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-	maxZoom: 16
-}).addTo(map);
-
-/* Basemap #2: Esri Dark Gray Reference */
-var EsriDarkGrayCanvasRef = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-	maxZoom: 16
-}).addTo(map);
+// Basemap Layers
+L.esri.basemapLayer("DarkGray").addTo(map);
+L.esri.basemapLayer("DarkGrayLabels").addTo(map);
 
 
 /*******************
@@ -36,6 +21,9 @@ var usPopulationChange = L.esri.featureLayer({
     };
   },
   onEachFeature: function (feature, layer) {
-    layer.bindPopup(feature.properties.NAME + ": " + feature.properties.RATE_POP); //Popup displaying the county name
-}
+     /* Popup displaying the state and its population rate */
+     // layer.bindPopup(feature.properties.NAME + "<br/>" + feature.properties.RATE_POP);
+     /* Popup with additional styling */
+     layer.bindPopup("<h1>" + feature.properties.NAME + "</h1>" + "<b>Population Rate: </b>" + feature.properties.RATE_POP);
+   }
 }).addTo(map);

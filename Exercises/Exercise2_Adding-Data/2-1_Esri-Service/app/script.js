@@ -1,24 +1,12 @@
 // Initialize the map on the "map" div with a given center and zoom
-var map = L.map('map', {
-    center: [46.37, -93.88],
-    zoom: 6
-});
+var map = L.map("map").setView([46.37, -93.88], 6);
 
 /*******************
   Basemap Layers
 *******************/
-
 /* Basemap #1: Esri Dark Gray */
-var EsriDarkGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-	maxZoom: 16
-}).addTo(map);
-
-/* Basemap #2: Esri Dark Gray Reference */
-/* To add the basemap to the map, use the .addTo(map) method */
-//TODO: Step 1. Add in the following basemap reference service: https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}
-
-
+L.esri.basemapLayer("DarkGray").addTo(map);
+//TODO: Step 1. Add in the Dark Gray basemap with labels
 
 /*******************
   Feature Layer
@@ -27,4 +15,7 @@ var EsriDarkGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/res
 
 /* Feature Layer: U.S. Population Change between 1990-2000 (Credit: Esri, U.S. Census Bureau) */
 //TODO: Step 2. Add in the following service: http://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4
-//TODO: Step 3: Add the data to the map using the .addTo(map) method */
+//TODO: Step 3: Add the data to the map using the .addTo(map) method
+var usPopulationChange = L.esri.featureLayer({
+  url: ""
+});
