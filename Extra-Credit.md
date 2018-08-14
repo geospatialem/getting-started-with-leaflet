@@ -85,8 +85,8 @@ Note the style function is _only a portion_ of the JavaScript needed. The rest o
 ```  
 
 ## Final products  
-* [Code](../../tree/gh-pages/Solutions/ExtraCredit_Styling)  
-* [Map](http://geospatialem.github.io/getting-started-with-leaflet/Solutions/ExtraCredit_Styling/index.html)  
+* [Code](../../tree/gh-pages/Solutions/Extra-Credit_Styling)  
+* [Map](http://geospatialem.github.io/getting-started-with-leaflet/Solutions/Extra-Credit_Styling/index.html)  
 
-Return to [Exercise 3](Exercise3_Popups.md)  
+Return to [Exercise 6: Popups](Exercise_6_Popups)  
 Continue to [Course Content](README.md)  
