@@ -44,13 +44,15 @@ The course content separates out the code into the following files:
 * [Exercise 6: Pop-ups](Exercise_6_Popups.md)    
 * [Extra Credit](Extra-Credit.md)
 
-## Exercise 1: Templates - Basemap template with Leaflet.js  
+## Templates
+
+### Exercise 1: Basemap template with Leaflet.js  
 Put together your first web map and add a basemap using the [Leaflet.js](http://leafletjs.com) library.  
 
-## Exercise 2: Templates - Basemap template with Esri Leaflet.js  
+### Exercise 2: Basemap template with Esri Leaflet.js  
 Put together your first web map and add a basemap using the [Esri Leaflet](https://esri.github.io/esri-leaflet) library.  
 
-## Exercise 3: Templates - Embeddable map with basemap template, including no zoom/panning, with Leaflet.js  
+### Exercise 3: Embeddable map with basemap template, including no zoom/panning, with Leaflet.js  
 Put together your first web map, add a basemap, and restrict panning and zooming so you can embed the map within an existing webpage or content management system (CMS).
 
 To embed the map on a page add in the following HTML content to the page:
@@ -59,19 +61,25 @@ To embed the map on a page add in the following HTML content to the page:
 <iframe src="http://your-published-map-url-here.com" frameborder="0" width="600" height="400"></iframe>  
 ```   
 
-## Exercise 3 (Extra Credit): Templates - Basemap tilelayer with Leaflet.js  
+### Exercise 3 (Extra Credit): Basemap tilelayer with Leaflet.js  
 Add a tile layer as your basemap using the [Leaflet.js](http://leafletjs.com) library.  
 
-## Exercise 4: Adding Data to the Map - Add an ArcGIS Service  
+## Adding Data  
+
+### Exercise 4: Add an ArcGIS Service  
 Add an ArcGIS Service of your choice and style it to your liking in **your** web map!
 
-## Exercise 5: Adding Data to the Map - Add a GeoJSON  
+### Exercise 5: Add a GeoJSON  
 Add a GeoJSON, from an ArcGIS Service, a web location, or create your own from scratch. Style it to your liking and add it to your web map!
 
-## Exercise 6: Pop-ups
+## Pop-ups  
+
+### Exercise 6: Pop-ups
 Now that you've added data to the map, we'll loop through a field and add the data as a popup when a user clicks on a geography. :+1:   
 
-## * Extra Credit *
+## Styling
+
+### * Extra Credit *
 If time permits, try one of the following options in your map:
 
 * Create a function that grabs a field's values and styles your features differently in the map based on their values.
