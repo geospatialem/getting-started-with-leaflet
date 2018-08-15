@@ -44,8 +44,8 @@ This exercise is the same code as exercise 1 plus:
 * Adding the random tiles to the map.  
 
 ### Final products  
-* [Code](https://github.com/geospatialem/getting-started-with-leaflet/tree/gh-pages/Solutions/Exercise-3Extra_Basemap-Tilelayer)  
-* [Map](https://geospatialem.github.io/getting-started-with-leaflet/Solutions/Exercise-3Extra_Basemap-Tilelayer/index.html)  
+* [Code](https://github.com/geospatialem/getting-started-with-leaflet/tree/gh-pages/Solutions/Exercise-3_ExtraCredit_Basemap-Tilelayer)  
+* [Map](https://geospatialem.github.io/getting-started-with-leaflet/Solutions/Exercise-3_ExtraCredit_Basemap-Tilelayer/index.html)  
 
 Return to [Course Content](README.md)  
 Continue to [Exercises 4 & 5: Adding Data](Exercise_4-5_Adding-Data.md)  
