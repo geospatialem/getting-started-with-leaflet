@@ -7,8 +7,8 @@ This exercise includes:
 * `onEachFeature` Function  
 
 ## Final products  
-* [Code](../../tree/gh-pages/Solutions/Exercise-6_Popups)  
-* [Map](http://geospatialem.github.io/getting-started-with-leaflet/Solutions/Exercise-6_Popups/index.html)  
+* [Code](https://github.com/geospatialem/getting-started-with-leaflet/tree/gh-pages/Solutions/Exercise-6_Popups)  
+* [Map](https://geospatialem.github.io/getting-started-with-leaflet/Solutions/Exercise-6_Popups/index.html)  
 
 
 Return to [Exercises 4 & 5: Adding Data](Exercise_4-5_Adding-Data.md)  
