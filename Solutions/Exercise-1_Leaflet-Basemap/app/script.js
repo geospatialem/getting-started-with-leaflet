@@ -21,24 +21,6 @@ var EsriDarkGrayCanvasRef = L.tileLayer('https://server.arcgisonline.com/ArcGIS/
 	maxZoom: 16
 }).addTo(map);
 
-// Tilelayer Placekitten.com fun example
-// Since we load it last in the map, it displays on top of the Esri basemaps
-L.TileLayer.Kitten = L.TileLayer.extend({
-    getTileUrl: function(coords) {
-        var i = Math.ceil(Math.random() * 4);
-        return "https://placekitten.com/256/256?image=" + i;
-    },
-    getAttribution: function() {
-        return "<a href='https://placekitten.com/attribution.html'>PlaceKitten</a>";
-    }
-});
-
-L.tileLayer.kitten = function() {
-    return new L.TileLayer.Kitten();
-};
-
-L.tileLayer.kitten().addTo(map);
-
 
 // An Event listener to help us identify the zoom level for our map
 // map.on('zoomend', function() {
