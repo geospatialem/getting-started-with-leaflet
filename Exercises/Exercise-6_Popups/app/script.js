@@ -14,7 +14,7 @@ L.esri.basemapLayer("DarkGrayLabels").addTo(map);
 //TODO: Step 1. Go to http://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4 and determine two (2) fields you would like to display in the popup.
 /* Feature Layer: U.S. Population Change between 1990-2000 (Credit: Esri, U.S. Census Bureau) */
 var usPopulationChange = L.esri.featureLayer({
-  url: "http://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4",
+  url: "https://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4",
   style: function () {
     return {
       color: "#FFF",

@@ -14,7 +14,7 @@ L.esri.basemapLayer("DarkGray").addTo(map);
 *******************/
 
 /* Feature Layer: U.S. Population Change between 1990-2000 (Credit: Esri, U.S. Census Bureau) */
-//TODO: Step 2. Add in the following service: http://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4
+//TODO: Step 2. Add in the following service: https://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4
 //TODO: Step 3: Add the data to the map using the .addTo(map) method
 var usPopulationChange = L.esri.featureLayer({
   url: ""

@@ -23,7 +23,7 @@ function getRatePopStyle(ratePop) {
 ***************************/
 /* Feature Layer: U.S. Population Change between 1990-2000 (Credit: Esri, U.S. Census Bureau) */
 var usPopulationChange = L.esri.featureLayer({
-  url: "http://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4",
+  url: "https://server.arcgisonline.com/arcgis/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/4",
   style: function (feature) {
       return {
         color: "#CCC",
@@ -62,7 +62,7 @@ function symbolizeRadius(popValue) {
 ***************************/
 /* Feature Layer: Minnesota City Populations (Credit: Minnesota Office of the State Auditor) */
 var mnCitiesPopulations = L.esri.featureLayer({
-	url: "http://www.auditor.state.mn.us/arcgis/rest/services/MnInfrastructure/MapServer/0",
+	url: "https://www.auditor.state.mn.us/arcgis/rest/services/MnInfrastructure/MapServer/0",
   pointToLayer: function (feature, latlng) {
 		return new L.CircleMarker(latlng, {
 				radius: symbolizeRadius(feature.properties.Population),
