@@ -89,4 +89,4 @@ Note the style function is _only a portion_ of the JavaScript needed. The rest o
 * [Map](https://geospatialem.github.io/getting-started-with-leaflet/Solutions/Extra-Credit_Styling/index.html)  
 
 Return to [Exercise 6: Popups](Exercise_6_Popups.md)  
-Continue to [Course Content](README.md)  
+Continue to [Moar Features](Moar-Features.md)  
