@@ -86,7 +86,7 @@ If time permits, try one of the following options in your map:
 * Create a function that grabs a field's values and styles your features differently in the map based on their values.
 * Create a function that symbolizes your point-based data based on a radius size.  
 
-### * Moar Features *  
+## * Moar Features *  
 Check out more bells and whistles, including:  
 * Custom icons  
 * Layer mouseover interaction  
