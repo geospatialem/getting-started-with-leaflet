@@ -43,6 +43,7 @@ The course content separates out the code into the following files:
 * [Exercises 4 & 5: Adding Data](Exercise_4-5_Adding-Data.md)    
 * [Exercise 6: Pop-ups](Exercise_6_Popups.md)    
 * [Extra Credit](Extra-Credit.md)
+* [Moar Features](Moar-Features.md)  
 
 ## Templates
 
@@ -83,4 +84,11 @@ Now that you've added data to the map, we'll loop through a field and add the da
 If time permits, try one of the following options in your map:
 
 * Create a function that grabs a field's values and styles your features differently in the map based on their values.
-* Create a function that symbolizes your point-based data based on a radius size.
+* Create a function that symbolizes your point-based data based on a radius size.  
+
+### * Moar Features *  
+Check out more bells and whistles, including:  
+* Custom icons  
+* Layer mouseover interaction  
+* Layers control  
+* Zoom to layer (on load)    

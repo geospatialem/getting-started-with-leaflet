@@ -1,7 +1,7 @@
 # Moar Features
 
 1. [Custom icon](#custom-icon)   
-2. [Layer mouseover](#layer-mouseover)    
+2. [Layer mouseover interaction](#layer-mouseover-interaction)    
 3. [Layer control](#layer-control)  
 4. [Zoom to layer (on load)](#zoom-to-layer)  
 
@@ -25,7 +25,7 @@ var yourIconName = L.icon({
 var yourMarkerName = L.marker([44.9594,-93.2935], {icon: yourIconName, title: 'Accessibility tag'});  
 ```
 
-## Layer mouseover  
+## Layer mouseover interaction   
 Add interaction to your map elements by using the `onEachFeature` option and adding the `layer.on` listener for `mouseover` and `mouseout`.
 
 You will need to style your elements when a user mouses over the feature, but also when the user mouses out you will need to reset the style back to its original style (or a different one if you so choose).  
