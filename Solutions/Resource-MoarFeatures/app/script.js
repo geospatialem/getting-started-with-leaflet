@@ -90,19 +90,14 @@ var mnCitiesPopulations = L.esri.featureLayer({
   Cat Lounge (icon example)
 ***************************/
 // Custom icon: Apollo cat icon
-var catIcon = L.Icon.extend({
-	options: {
-		shadowUrl: 'images/apolloCatShadow.png',
-		iconSize:     [50, 50],
-		shadowSize:   [55, 55],
-		iconAnchor:   [22, 94],
-		shadowAnchor: [22, 94],
-		popupAnchor:  [-3, -76]
-	}
-});
-
-var apolloCatIcon = new catIcon({
-	iconUrl: 'images/apolloCat.png'
+var apolloCatIcon = L.icon({
+	iconUrl: 'images/apolloCat.png',
+	shadowUrl: 'images/apolloCatShadow.png',
+	iconSize:     [50, 50],
+	shadowSize:   [55, 55],
+	iconAnchor:   [22, 94],
+	shadowAnchor: [22, 94],
+	popupAnchor:  [-3, -76]
 });
 
 var catLounge = L.marker([44.95945355239673,-93.293559551239], {icon: apolloCatIcon, title: 'The Cat Meow Cafe'});
